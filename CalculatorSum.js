@@ -16,7 +16,7 @@ alert(inputGetting());
 
 if(x == Number(x) && y == Number(y)){
   alert("The solution is " + sum());
-  document.write("<br>" + sum());
+  document.write(`<br>${x} + ${y} = ${sum()}`);
 }else{
   alert("Please, enter valid numbers!");
   alert(inputGetting());
